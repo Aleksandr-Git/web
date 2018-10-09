@@ -7,7 +7,7 @@ sudo rm -rf /etc/nginx/sites-enabled/default
 # перезапускаем вэб-сервер
 sudo /etc/init.d/nginx restart
 
-# sudo ln -sf /home/box/web/hello.py /etc/gunicorn.d/hello.py
+#sudo ln -sf /home/box/web/etc/gunicorn.conf /etc/gunicorn.d/test
 
 # sudo /etc/init.d/gunicorn restart
 
